@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540">
+  <rect width="900" height="540" rx="30" fill="#070b18"/>
+  <circle cx="450" cy="270" r="210" fill="none" stroke="#24324f" stroke-width="2"/>
+  <circle cx="450" cy="270" r="155" fill="none" stroke="#24324f" stroke-width="2"/>
+  <circle cx="450" cy="270" r="105" fill="none" stroke="#24324f" stroke-width="2"/>
+  <circle cx="450" cy="270" r="58" fill="#facc15"/>
+  <circle cx="560" cy="270" r="18" fill="#3b82f6"/>
+  <circle cx="610" cy="170" r="28" fill="#ef4444"/>
+  <circle cx="300" cy="355" r="22" fill="#22c55e"/>
+  <circle cx="250" cy="210" r="14" fill="#94a3b8"/>
+  <circle cx="670" cy="365" r="34" fill="#eab308"/>
+  <path d="M650 365c35-16 72-16 108 0" fill="none" stroke="#fde68a" stroke-width="5" stroke-linecap="round"/>
+  <rect x="70" y="60" width="250" height="70" rx="16" fill="#10172a" stroke="#00e5ff" stroke-width="3"/>
+  <text x="100" y="105" fill="#00e5ff" font-size="28" font-family="Arial" font-weight="700">Sistema Solar VR</text>
+  <text x="100" y="465" fill="#e2e8f0" font-size="26" font-family="Arial" font-weight="700">Proyecto interactivo</text>
+  <text x="100" y="500" fill="#94a3b8" font-size="21" font-family="Arial">HTML · CSS · JavaScript · VR</text>
+  <g fill="#ffffff" opacity="0.85">
+    <circle cx="115" cy="175" r="2"/>
+    <circle cx="790" cy="120" r="2"/>
+    <circle cx="740" cy="250" r="2"/>
+    <circle cx="160" cy="320" r="2"/>
+    <circle cx="390" cy="95" r="2"/>
+    <circle cx="810" cy="430" r="2"/>
+    <circle cx="530" cy="450" r="2"/>
+    <circle cx="205" cy="80" r="2"/>
+  </g>
+</svg>

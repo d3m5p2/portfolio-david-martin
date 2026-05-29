@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio personal de David Martín Prieto, estudiante de 1.º DAM.">
+  <title>David Martín Prieto | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="cabecera">
+    <nav class="menu contenedor">
+      <a class="logo" href="#inicio">
+        <img src="assets/img/logo.svg" alt="">
+        <span>David Dev</span>
+      </a>
+
+      <button class="boton-menu" id="botonMenu" aria-label="Abrir menú">
+        ☰
+      </button>
+
+      <ul class="enlaces-menu" id="enlacesMenu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#formacion">Formación</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="seccion inicio" id="inicio">
+      <div class="contenedor inicio-grid">
+        <div class="inicio-foto">
+          <img src="assets/img/foto-perfil.webp" alt="Foto de David Martín Prieto">
+        </div>
+
+        <div class="inicio-texto">
+          <p class="etiqueta">Portfolio personal · 1.º DAM</p>
+          <h1>David Martín <span>Prieto</span></h1>
+          <p class="subtitulo">Estudiante de Desarrollo de Aplicaciones Multiplataforma.</p>
+          <p class="descripcion">
+            Me interesa seguir aprendiendo programación, Java, bases de datos y desarrollo web.
+          </p>
+
+          <div class="botones">
+            <a class="boton boton-principal" href="#proyectos">Ver proyectos</a>
+            <a class="boton boton-secundario" href="#contacto">Contactar</a>
+          </div>
+
+          <div class="datos">
+            <article>
+              <strong>La Solana</strong>
+              <span>Ciudad Real</span>
+            </article>
+            <article>
+              <strong>1.º DAM</strong>
+              <span>IES Gregorio Prieto</span>
+            </article>
+            <article>
+              <strong>GitHub</strong>
+              <span>d3m5p2</span>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion" id="sobre-mi">
+      <div class="contenedor">
+        <div class="titulo-seccion">
+          <p class="etiqueta">Sobre mí</p>
+          <h2>Quién soy</h2>
+        </div>
+
+        <article class="tarjeta">
+          <p>
+            Estudiante de primer curso de Desarrollo de Aplicaciones Multiplataforma con formación
+            en Sistemas Microinformáticos y Redes. Busco la oportunidad de realizar prácticas para
+            aplicar mis conocimientos, seguir aprendiendo y desarrollarme profesionalmente en el
+            ámbito de la informática.
+          </p>
+
+          <div class="chips">
+            <span>Constante</span>
+            <span>Curioso</span>
+            <span>Trabajo en equipo</span>
+            <span>Aprender haciendo</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="seccion" id="habilidades">
+      <div class="contenedor">
+        <div class="titulo-seccion centrado">
+          <p class="etiqueta">Habilidades</p>
+          <h2>Tecnologías</h2>
+        </div>
+
+        <div class="grid-habilidades">
+          <article class="habilidad">
+            <h3>Java</h3>
+            <p>Intermedio</p>
+          </article>
+
+          <article class="habilidad">
+            <h3>HTML5</h3>
+            <p>Intermedio</p>
+          </article>
+
+          <article class="habilidad">
+            <h3>CSS3</h3>
+            <p>Intermedio</p>
+          </article>
+
+          <article class="habilidad">
+            <h3>JavaScript</h3>
+            <p>Básico</p>
+          </article>
+
+          <article class="habilidad">
+            <h3>SQL</h3>
+            <p>Intermedio</p>
+          </article>
+
+          <article class="habilidad">
+            <h3>Git / GitHub</h3>
+            <p>Básico</p>
+          </article>
+
+          <article class="habilidad">
+            <h3>Sistemas Informáticos</h3>
+            <p>Intermedio</p>
+          </article>
+
+          <article class="habilidad">
+            <h3>Inglés</h3>
+            <p>Básico</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion" id="proyectos">
+      <div class="contenedor">
+        <div class="titulo-seccion centrado">
+          <p class="etiqueta">Proyectos</p>
+          <h2>Trabajos y aprendizaje</h2>
+        </div>
+
+        <div class="grid-proyectos">
+          <article class="proyecto">
+            <img src="assets/img/proyecto-tareas.svg" alt="Imagen del proyecto Gestor de Tareas">
+            <div class="proyecto-info">
+              <p class="tipo">React · JavaScript</p>
+              <h3>Gestor de Tareas</h3>
+              <p>
+                Aplicación para organizar tareas y practicar el desarrollo web. Permite añadir tareas,
+                filtrarlas y guardar información de forma sencilla.
+              </p>
+
+              <div class="chips">
+                <span>React</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+
+              <a class="enlace-proyecto" href="https://d3m5p2.github.io/gestor-tareas-react/" target="_blank" rel="noopener noreferrer">
+                Ver proyecto
+              </a>
+            </div>
+          </article>
+
+          <article class="proyecto">
+            <img src="assets/img/proyecto-sistema-solar.svg" alt="Imagen del proyecto Sistema Solar en VR">
+            <div class="proyecto-info">
+              <p class="tipo">Web · VR</p>
+              <h3>Sistema Solar en VR</h3>
+              <p>
+                Página interactiva sobre el sistema solar con una experiencia visual en realidad virtual.
+                Permite mostrar planetas y practicar el uso de tecnologías web en un proyecto más creativo.
+              </p>
+
+              <div class="chips">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>VR</span>
+              </div>
+
+              <a class="enlace-proyecto" href="https://d3m5p2.github.io/VR/" target="_blank" rel="noopener noreferrer">
+                Ver proyecto
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion" id="formacion">
+      <div class="contenedor">
+        <div class="titulo-seccion centrado">
+          <p class="etiqueta">Formación</p>
+          <h2>Estudios y experiencia</h2>
+        </div>
+
+        <div class="grid-formacion">
+          <article class="tarjeta">
+            <span class="fecha">2025 - Actualidad</span>
+            <h3>Grado Superior DAM</h3>
+            <p>IES Gregorio Prieto, Valdepeñas, Ciudad Real.</p>
+          </article>
+
+          <article class="tarjeta">
+            <span class="fecha">2023 - 2025</span>
+            <h3>Grado Medio SMR</h3>
+            <p>IES Modesto Navarro, La Solana, Ciudad Real.</p>
+          </article>
+
+          <article class="tarjeta">
+            <span class="fecha">Prácticas</span>
+            <h3>Informático</h3>
+            <p>Fundación Legado Bustillo, La Solana.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion contacto" id="contacto">
+      <div class="contenedor">
+        <div class="titulo-seccion centrado">
+          <p class="etiqueta">Contacto</p>
+          <h2>Hablemos</h2>
+          <p>
+            Si quieres contactar conmigo para proyectos, prácticas o cualquier oportunidad relacionada
+            con la informática, puedes encontrarme aquí.
+          </p>
+        </div>
+
+        <div class="grid-contacto">
+          <a class="contacto-card" href="mailto:davidmartinprieto2007@gmail.com">
+            <span>Email</span>
+            <strong>davidmartinprieto2007@gmail.com</strong>
+          </a>
+
+          <a class="contacto-card" href="tel:+34693922433">
+            <span>Teléfono</span>
+            <strong>+34 693 92 24 33</strong>
+          </a>
+
+          <a class="contacto-card" href="https://github.com/d3m5p2" target="_blank" rel="noopener noreferrer">
+            <span>GitHub</span>
+            <strong>github.com/d3m5p2</strong>
+          </a>
+
+          <a class="contacto-card" href="https://www.linkedin.com/in/david-martín-prieto-42768b412" target="_blank" rel="noopener noreferrer">
+            <span>LinkedIn</span>
+            <strong>david-martín-prieto</strong>
+          </a>
+
+          <article class="contacto-card">
+            <span>Ubicación</span>
+            <strong>La Solana, Ciudad Real</strong>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor pie-contenido">
+      <p>© 2026 David Martín Prieto</p>
+      <a href="#inicio">Volver arriba</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
